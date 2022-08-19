@@ -18,7 +18,7 @@ const AppBr = () => {
             <About/>
             <Experience/>
             <Services/>
-            <Portfolio/>
+            {/*<Portfolio/>*/}
             {/*<Testimonials/>*/}
             <Contact/>
             <Footer/>

@@ -19,6 +19,7 @@ const Contact = () => {
                 alert('Email enviado com sucesso')
                 e.target.reset();
             }, (error) => {
+                console.log(error)
                 alert('Houve um erro tente novamente mais tarde')
             });
     };
@@ -46,7 +47,7 @@ const Contact = () => {
                     <article className="contact__option">
                         <BsWhatsapp className="contact__icon"/>
                         <h4>WhatsApp</h4>
-                        <h5>+55 31 9 99565-1680</h5>
+                        <h5>+55 31 9 9565-1680</h5>
                         <a href="https://api.whatsapp.com/send?phone=5531995651680&text=Ol%C3%A1%2C%20vi%20o%20seu%20site%20e%20tenho%20interesse%20de%20conversar%20com%20voc%C3%AA."
                            rel="noreferrer">Envie uma mensagem</a>
                     </article>
