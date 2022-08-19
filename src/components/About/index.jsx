@@ -4,7 +4,7 @@ import {VscFolderLibrary} from "react-icons/vsc";
 import {BsAward} from  "react-icons/bs"
 
 import './styles.css'
-import Me from '../../assets/me-2.png'
+import Me from '../../assets/portfolio5.png'
 
 const About = () => {
         return (
