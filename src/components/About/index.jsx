@@ -44,6 +44,7 @@ const About = () => {
                         </p>
 
                         <a href="#contact" className="btn btn-primary">Vamos conversar!</a>
+                        <a href="">Meu currículo</a>
                     </div>
                 </div>
             </section>
