@@ -7,9 +7,12 @@
 .portfolio__item{
     background: var(--color-bg-variant);
     padding: 1.3rem;
+    display: flex;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .portfolio__item:hover{
@@ -20,6 +23,10 @@
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__item-image img{
+    height: 280px;
 }
 
 .portfolio__item h3{
@@ -40,6 +47,11 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+
+    .portfolio__desc span{
+        font-size: 10px
+    }
 }
 
 /* Media Query for Small Devices */
@@ -49,5 +61,6 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
 
 }

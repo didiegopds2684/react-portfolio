@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
+import Professional from "./components/Professional";
+// import Services from "./components/Services";
 // import Testimonials from "./components/Testimonials";
 
 
@@ -16,8 +17,9 @@ const AppBr = () => {
             <Header/>
             <Nav/>
             <About/>
+            <Professional />
             <Experience/>
-            <Services/>
+            {/*<Services/>*/}
             <Portfolio/>
             {/*<Testimonials/>*/}
             <Contact/>

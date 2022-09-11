@@ -116,6 +116,15 @@ img{
     object-fit: cover;
 }
 
+.ml-2{
+    margin-left: 2rem;
+}
+
+.f-itallic{
+    font-style: italic;
+}
+
+
 /* Media Query for Medium Devices */
 
 @media screen and (max-width: 1024px){

@@ -5,6 +5,7 @@ import {BsAward} from  "react-icons/bs"
 
 import './styles.css'
 import Me from '../../assets/portfolio5.png'
+import cv from "../../assets/Curriculo.pdf"
 
 const About = () => {
         return (
@@ -44,7 +45,7 @@ const About = () => {
                         </p>
 
                         <a href="#contact" className="btn btn-primary">Vamos conversar!</a>
-                        <a href="">Meu currículo</a>
+                        <a href={cv} target="_blank" className="ml-2">Meu currículo</a>
                     </div>
                 </div>
             </section>

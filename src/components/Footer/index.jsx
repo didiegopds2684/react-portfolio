@@ -9,12 +9,11 @@ const Footer = () => {
         return (
             <footer>
                 <a href="#" className="footer__logo">Diego Pedro</a>
-                
                 <ul className="permalinks">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#experience">Expêriencia</a></li>
-                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#professional">Profissional</a></li>
+                    <li><a href="#experience">Conhecimento</a></li>
                     {/*<li><a href="#portfolio">Portfolio</a></li>*/}
                     <li><a href="#contact">Contato</a></li>
                 </ul>
