@@ -4,8 +4,8 @@ import {VscFolderLibrary} from "react-icons/vsc";
 import {BsAward} from  "react-icons/bs"
 
 import './styles.css'
-import Me from '../../assets/portfolio5.png'
-import cv from "../../assets/Curriculo.pdf"
+import Me from '../../assets/me-2.jpg'
+import cv from "../../assets/Diego_CV.pdf"
 
 const About = () => {
         return (
@@ -40,8 +40,7 @@ const About = () => {
                         </div>
 
                         <p>
-                            Profissional de 22 anos formado em Ciência da Computação pela UNIBH com experiência em
-                            suporte técnico, redes, DevOps e Desenvolvimento Web.
+                            Formado em bacharelato de CIência da Computação em 2021. Um ano de experiência em desenvolvimento web fullstack, usando ReactJS para produção de sites front-end e consumir apis criadas no backend, PHP Laravel para sistemas completos de todos os tipos. E um ano como DevOps, usando AWS, GCP, estudando e aplicando estrutura como código, gerenciamento de servidores em nuvem. Acostumado a trabalhar com método ágeis, usar microsserviços igual Git.
                         </p>
 
                         <a href="#contact" className="btn btn-primary">Vamos conversar!</a>

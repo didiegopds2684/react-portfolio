@@ -11,9 +11,11 @@ const data = [
         company: "Verticis Web Studio",
         duration: "10/2021 - atualmente",
         items: [
-            "Desenvolvimento Backend com uso de PHP Laravel.",
-            "Desenvolvimento Frontend Java Script usando React,HTML, CSS, Bootstrap.",
-            "Criação e manutençao de sites completos e personalizados."
+            "Estruturação e desenvolvimento de sistemas Backend usando PHP com Framework Laravel.",
+            "Desenvolvimento de sites e sistemas Frontend usando React JS.",
+            "Experiência em Docker (Criação e configuração de containers).",
+            "Criação e manutenção de sistemas completos e personalizados.",
+            "Partipação ativa no contato direto com cliente, sugerir melhores alternativas, e contribuir na modelagem dos projetos"
         ]
     },
     {
