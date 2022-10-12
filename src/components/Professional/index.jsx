@@ -64,7 +64,7 @@ const Professional = () => {
             <div className="container professional__container">
                 {
                     data.map(({id, title, company, duration, items}) => (
-                        <div className="experience__dev" id={id}>
+                        <div key={id} className="experience__dev">
                             <div className="professional__title-container">
                                 <div className="professional__title">
                                     <h1>{title}</h1>

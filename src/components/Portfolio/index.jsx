@@ -4,6 +4,7 @@ import './styles.css'
 import IMG1 from '../../assets/letmeask.png';
 import IMG2 from '../../assets/controle.png';
 import IMG3 from '../../assets/crud.png';
+import IMG4 from '../../assets/gallery.png';
 
 const data = [
     {
@@ -34,6 +35,15 @@ const data = [
         github2: "https://github.com/didiegopds2684/fullstack-crud-frontend",
         demo: "",
     },
+    {
+        id: 4,
+        image: IMG4,
+        title: "TailwindCSS Image Gallery",
+        description: "Galeria de imagens estilizada com tailwind css consumindo a API publica do site Pixabay para mostrar, buscar e possibilitar o download de imagens",
+        github: "https://github.com/didiegopds2684/tailwindcss-image-gallery",
+        github2: "",
+        demo: "https://didiegopds2684.github.io/tailwindcss-image-gallery/"
+    }
 ]
 
 
@@ -55,10 +65,10 @@ const Portfolio = () => {
                                 <span>{description}</span>
                             </div>
                             <div className="portfolio__item-cta">
-                                <a href={github} className="btn">Github</a>
-                                {github2 === "" ? "" : <a href={github2} className="btn">Github Front</a>}
+                                <a href={github} target="_blank" rel="noreferrer" className="btn">Github</a>
+                                {github2 === "" ? "" : <a href={github2} target="_blank" rel="noreferrer" className="btn">Github Front</a>}
                                 {demo === "" ? "" :
-                                    <a href={demo} className="btn btn-primary" rel="noreferrer">Demo</a>}
+                                    <a href={demo} target="_blank" rel="noreferrer" className="btn btn-primary" rel="noreferrer">Demo</a>}
 
                             </div>
                         </article>
