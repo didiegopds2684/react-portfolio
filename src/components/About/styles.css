@@ -56,11 +56,16 @@
 }
 
 .about__card h5{
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    font-family: var(--font-mono);
 }
 
 .about__card small{
-    font-size: 0.7rem;
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
     color: var(--color-light)
 }
 

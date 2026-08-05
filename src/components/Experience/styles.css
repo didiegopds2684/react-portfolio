@@ -1,75 +1,62 @@
-.experience__container{
+.skills__container {
     display: grid;
-    /*grid-template-columns: 4fr;*/
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
 }
 
-.experience__container > div{
+.skills__category {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
     border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1.8rem;
     transition: var(--transition);
 }
 
-.experience__container > div:hover{
-    background: transparent;
-    border-color: var(--color-bg-variant);
-    cursor: default;
+.skills__category:hover {
+    border-color: var(--color-border);
 }
 
-.experience__container > div h3{
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+.skills__category-name {
+    color: var(--color-secondary);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
 }
 
-.experience__content{
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    row-gap: 2rem;
-}
-
-.experience__details{
+.skills__tags {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.6rem;
 }
 
-.experience__details-icon{
-    margin-top: 6px;
-    color: var(--color-primary);
+.skills__tag {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-white);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.7rem;
 }
-
 
 /* Media Query for Medium Devices */
 
-@media screen and (max-width: 1024px){
-    .experience__container{
-        grid-template-columns: 1fr;
-    }
-
-    .experience__container > div{
-        width: 90%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience__content{
-        padding: 1rem;
+@media screen and (max-width: 1024px) {
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-
 /* Media Query for Small Devices */
 
-@media screen and (max-width: 600px){
-    .experience__container{
+@media screen and (max-width: 600px) {
+    .skills__container {
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
+    .skills__category {
+        padding: 1.5rem;
     }
 }

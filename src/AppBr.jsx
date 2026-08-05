@@ -7,24 +7,25 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Professional from "./components/Professional";
+import {LanguageProvider} from "./i18n/LanguageContext";
 // import Services from "./components/Services";
 // import Testimonials from "./components/Testimonials";
 
 
 const AppBr = () => {
     return (
-        <>
+        <LanguageProvider>
             <Header/>
             <Nav/>
             <About/>
-            <Professional />
+            <Professional/>
             <Experience/>
             {/*<Services/>*/}
             <Portfolio/>
             {/*<Testimonials/>*/}
             <Contact/>
             <Footer/>
-        </>
+        </LanguageProvider>
     )
 }
 

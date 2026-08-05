@@ -4,31 +4,31 @@ import './styles.css'
 import {FaInstagram} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaLinkedin} from "react-icons/fa";
+import {useLanguage} from "../../i18n/LanguageContext";
 
 const Footer = () => {
-        return (
-            <footer>
-                <a href="#" className="footer__logo">Diego Pedro</a>
-                <ul className="permalinks">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#professional">Profissional</a></li>
-                    <li><a href="#experience">Conhecimento</a></li>
-                    {/*<li><a href="#portfolio">Portfolio</a></li>*/}
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
+    const {t} = useLanguage();
 
-                <div className="footer__socials">
-                    <a href="https://www.instagram.com/diegoxpedro/">{FaInstagram()}</a>
-                    <a href="https://github.com/didiegopds2684">{FaGithub()}</a>
-                    <a href="https://www.linkedin.com/in/diego-pedro-162496172/">{FaLinkedin()}</a>
-                </div>
+    return (
+        <footer>
+            <a href="#header" className="footer__logo">{t.footer.logo}</a>
+            <ul className="permalinks">
+                {t.footer.links.map(({label, href}) => (
+                    <li key={href}><a href={href}>{label}</a></li>
+                ))}
+            </ul>
 
-                <div className="footer__copyright">
-                    <small>&copy; Diego Pedro. Todos direitos reservados.</small>
-                </div>
-            </footer>
-        );
+            <div className="footer__socials">
+                <a href="https://www.instagram.com/diegoxpedro/" rel="noreferrer"><FaInstagram/></a>
+                <a href="https://github.com/didiegopds2684" rel="noreferrer"><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/diego-pedro-162496172/" rel="noreferrer"><FaLinkedin/></a>
+            </div>
+
+            <div className="footer__copyright">
+                <small>{t.footer.copyright}</small>
+            </div>
+        </footer>
+    );
 }
 
 export default Footer;

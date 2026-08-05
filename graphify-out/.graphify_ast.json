@@ -1,0 +1,2196 @@
+{
+  "nodes": [
+    {
+      "id": "package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_homepage",
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_emailjs_browser",
+      "label": "@emailjs/browser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "emailjs_browser",
+      "label": "@emailjs/browser",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_testing_library_jest_dom",
+      "label": "@testing-library/jest-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "testing_library_jest_dom",
+      "label": "@testing-library/jest-dom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_testing_library_react",
+      "label": "@testing-library/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "testing_library_react",
+      "label": "@testing-library/react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_testing_library_user_event",
+      "label": "@testing-library/user-event",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "testing_library_user_event",
+      "label": "@testing-library/user-event",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_emailjs_com",
+      "label": "emailjs-com",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "emailjs_com",
+      "label": "emailjs-com",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "react",
+      "label": "react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "react_dom",
+      "label": "react-dom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react_icons",
+      "label": "react-icons",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "react_icons",
+      "label": "react-icons",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react_router_dom",
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "react_router_dom",
+      "label": "react-router-dom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react_scripts",
+      "label": "react-scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "react_scripts",
+      "label": "react-scripts",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_web_vitals",
+      "label": "web-vitals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "web_vitals",
+      "label": "web-vitals",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_predeploy",
+      "label": "predeploy",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_deploy",
+      "label": "deploy",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_start",
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_eject",
+      "label": "eject",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_eslintconfig",
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_eslintconfig_extends",
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react_app",
+      "label": "react-app",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react_app_jest",
+      "label": "react-app/jest",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_browserslist",
+      "label": "browserslist",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_browserslist_production",
+      "label": "production",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_0_2",
+      "label": ">0.2%",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_not_dead",
+      "label": "not dead",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_not_op_mini_all",
+      "label": "not op_mini all",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_browserslist_development",
+      "label": "development",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_last_1_chrome_version",
+      "label": "last 1 chrome version",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_last_1_firefox_version",
+      "label": "last 1 firefox version",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_last_1_safari_version",
+      "label": "last 1 safari version",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_gh_pages",
+      "label": "gh-pages",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "gh_pages",
+      "label": "gh-pages",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_appbr",
+      "label": "AppBr.jsx",
+      "file_type": "code",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_appbr_appbr",
+      "label": "AppBr()",
+      "file_type": "code",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_index_about",
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_contact_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_contact_index_contact",
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_experience_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_experience_index_experience",
+      "label": "Experience()",
+      "file_type": "code",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_index_footer",
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_cta",
+      "label": "CTA.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Header/CTA.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_cta_cta",
+      "label": "CTA()",
+      "file_type": "code",
+      "source_file": "src/components/Header/CTA.jsx",
+      "source_location": "L4",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_headersocials",
+      "label": "HeaderSocials.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_headersocials_headersocials",
+      "label": "HeaderSocials()",
+      "file_type": "code",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_header_index_header",
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav_index_nav",
+      "label": "Nav()",
+      "file_type": "code",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_portfolio_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_portfolio_index_data",
+      "label": "data",
+      "file_type": "code",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_portfolio_index_portfolio",
+      "label": "Portfolio()",
+      "file_type": "code",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_professional_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_professional_index_data",
+      "label": "data",
+      "file_type": "code",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_professional_index_professional",
+      "label": "Professional()",
+      "file_type": "code",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_services_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_services_index_services",
+      "label": "Services()",
+      "file_type": "code",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L5",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_testimonials_index",
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Testimonials/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_testimonials_index_testimonials",
+      "label": "Testimonials()",
+      "file_type": "code",
+      "source_file": "src/components/Testimonials/index.jsx",
+      "source_location": "L3",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_index",
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/index.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_index_root",
+      "label": "root",
+      "file_type": "code",
+      "source_file": "src/index.js",
+      "source_location": "L6",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "package",
+      "target": "package_homepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_emailjs_browser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_emailjs_browser",
+      "target": "emailjs_browser",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_testing_library_jest_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_testing_library_jest_dom",
+      "target": "testing_library_jest_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_testing_library_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_testing_library_react",
+      "target": "testing_library_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_testing_library_user_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_testing_library_user_event",
+      "target": "testing_library_user_event",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_emailjs_com",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_emailjs_com",
+      "target": "emailjs_com",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react_dom",
+      "target": "react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_icons",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react_icons",
+      "target": "react_icons",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_router_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react_router_dom",
+      "target": "react_router_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react_scripts",
+      "target": "react_scripts",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_web_vitals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_web_vitals",
+      "target": "web_vitals",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_predeploy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_deploy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_eject",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_eslintconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_eslintconfig",
+      "target": "package_eslintconfig_extends",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_eslintconfig_extends",
+      "target": "ref_react_app",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_eslintconfig_extends",
+      "target": "ref_react_app_jest",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_browserslist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist",
+      "target": "package_browserslist_production",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_production",
+      "target": "ref_0_2",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_production",
+      "target": "ref_not_dead",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_production",
+      "target": "ref_not_op_mini_all",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist",
+      "target": "package_browserslist_development",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_development",
+      "target": "ref_last_1_chrome_version",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_development",
+      "target": "ref_last_1_firefox_version",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_browserslist_development",
+      "target": "ref_last_1_safari_version",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_gh_pages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_gh_pages",
+      "target": "gh_pages",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_about_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_contact_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_experience_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_footer_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_header_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_nav_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_portfolio_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_professional_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_appbr_appbr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "ref_react_icons_vsc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "ref_react_icons_bs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "src_components_about_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "src_assets_me_2",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "src_assets_diego_cv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about_index",
+      "target": "src_components_about_index_about",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About/index.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "ref_emailjs_browser",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "ref_react_icons_md",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "ref_react_icons_bs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "ref_react_icons_bs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "src_components_contact_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_contact_index",
+      "target": "src_components_contact_index_contact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact/index.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_experience_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_experience_index",
+      "target": "src_components_experience_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_experience_index",
+      "target": "ref_react_icons_bs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_experience_index",
+      "target": "src_components_experience_index_experience",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "src_components_footer_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_index",
+      "target": "src_components_footer_index_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer/index.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_cta",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/CTA.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_cta",
+      "target": "src_assets_diego_cv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/CTA.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_cta",
+      "target": "src_components_header_cta_cta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/CTA.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_headersocials",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_headersocials",
+      "target": "ref_react_icons_bs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_headersocials",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_headersocials",
+      "target": "ref_react_icons_fa",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_headersocials",
+      "target": "src_components_header_headersocials_headersocials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/HeaderSocials.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_cta",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_headersocials",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_assets_me",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_index_header",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react_icons_ai",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react_icons_ai",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react_icons_bi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react_icons_ri",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "ref_react_icons_bi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "src_components_nav_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav_index",
+      "target": "src_components_nav_index_nav",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav/index.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_components_portfolio_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_assets_letmeask",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_assets_controle",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_assets_crud",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_assets_gallery",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_components_portfolio_index_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_portfolio_index",
+      "target": "src_components_portfolio_index_portfolio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Portfolio/index.jsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_professional_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_professional_index",
+      "target": "src_components_professional_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_professional_index",
+      "target": "ref_react_icons_all",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_professional_index",
+      "target": "src_components_professional_index_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_professional_index",
+      "target": "src_components_professional_index_professional",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Professional/index.jsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_services_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_services_index",
+      "target": "src_components_services_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_services_index",
+      "target": "ref_react_icons_bi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_services_index",
+      "target": "src_components_services_index_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Services/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_testimonials_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Testimonials/index.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_testimonials_index",
+      "target": "src_components_testimonials_index_testimonials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Testimonials/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "ref_react_dom_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "src_appbr",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "src_global",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_about_index_about",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_contact_index_contact",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_experience_index_experience",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_footer_index_footer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_header_index_header",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_nav_index_nav",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_portfolio_index_portfolio",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_appbr",
+      "target": "src_components_professional_index_professional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/AppBr.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_cta_cta",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_header_index",
+      "target": "src_components_header_headersocials_headersocials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Header/index.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_index",
+      "target": "src_appbr_appbr",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

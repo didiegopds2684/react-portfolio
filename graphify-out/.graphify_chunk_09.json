@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "src_assets_controle_screenshot",
+      "label": "Controle Financeiro UI Screenshot",
+      "file_type": "image",
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_assets_controle_financial_control_app",
+      "label": "Financial Control (Controle Financeiro) App Concept",
+      "file_type": "concept",
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_assets_controle_entradas_saidas_total_summary",
+      "label": "Entradas/Saidas/Total Summary Cards Pattern",
+      "file_type": "concept",
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_assets_controle_transaction_entry_form",
+      "label": "Transaction Entry Form (Descricao, Valor, Entrada/Saida radio, Adicionar)",
+      "file_type": "concept",
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_assets_controle_transaction_table",
+      "label": "Transaction List Table with Delete Action",
+      "file_type": "concept",
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_assets_controle_screenshot",
+      "target": "src_assets_controle_financial_control_app",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_assets_controle_screenshot",
+      "target": "src_assets_controle_entradas_saidas_total_summary",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_assets_controle_screenshot",
+      "target": "src_assets_controle_transaction_entry_form",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_assets_controle_screenshot",
+      "target": "src_assets_controle_transaction_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_assets_controle_transaction_entry_form",
+      "target": "src_assets_controle_transaction_table",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "src_assets_controle_transaction_table",
+      "target": "src_assets_controle_entradas_saidas_total_summary",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/var/www/html/react-portfolio/src/assets/controle.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

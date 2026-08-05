@@ -2,27 +2,34 @@ import React from 'react';
 
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+import IntegrationMap from "../IntegrationMap";
 import './styles.css';
 
-import Me from "../../assets/me.png";
+import {useLanguage} from "../../i18n/LanguageContext";
 
 const Header = () => {
-        return (
-            <header id="header">
-                <div className="container header__container">
-                    <h5>Olá, eu sou</h5>
-                    <h1>Diego Pedro</h1>
-                    <h5 className="text-light">Fullstack Developer</h5>
-                    <CTA/>
-                    <HeaderSocials />
-                    <div className="me">
-                        <img src={Me} alt="me"/>
-                    </div>
+    const {t} = useLanguage();
 
-                    <a href="#contact" className="scroll__down">Descer</a>
+    return (
+        <header id="header">
+            <div className="container header__container">
+                <div className="header__text">
+                    <h5>{t.header.greeting}</h5>
+                    <h1>{t.header.name}</h1>
+                    <h5 className="text-light header__role">{t.header.role}</h5>
+                    <p className="header__tagline">{t.header.tagline}</p>
+                    <CTA/>
+                    <HeaderSocials/>
                 </div>
-            </header>
-        );
+
+                <div className="header__map">
+                    <IntegrationMap caption={t.header.mapCaption}/>
+                </div>
+
+                <a href="#contact" className="scroll__down">{t.header.scrollDown}</a>
+            </div>
+        </header>
+    );
 }
 
 export default Header;

@@ -1,66 +1,81 @@
-.portfolio__container{
+.portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
 }
 
-.portfolio__item{
+.portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 2rem;
     display: flex;
-    border-radius: 2rem;
+    flex-direction: column;
+    border-radius: 1.2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
 
-.portfolio__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+.portfolio__tag {
+    display: inline-block;
+    width: max-content;
+    color: var(--color-secondary);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
 }
 
-.portfolio__item-image img{
-    height: 280px;
+.portfolio__item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.9rem;
 }
 
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+.portfolio__desc {
+    color: var(--color-light);
+    font-size: 0.95rem;
+    margin-bottom: 1.1rem;
 }
 
-.portfolio__item-cta{
-    display: flex;
-    margin-top: 1rem;
-    gap: 1rem;
+.portfolio__stack {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--color-white);
+    opacity: 0.75;
+    line-height: 1.6;
     margin-bottom: 1rem;
+}
+
+.portfolio__result {
+    font-size: 0.88rem;
+    color: var(--color-primary);
+    margin-top: auto;
+    padding-top: 0.6rem;
+    border-top: 1px dashed var(--color-border);
+}
+
+.portfolio__item-cta {
+    display: flex;
+    margin-top: 1.2rem;
+    gap: 1rem;
 }
 
 /* Media Query for Medium Devices */
 
-@media screen and (max-width: 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
         gap: 1.2rem;
-    }
-
-
-    .portfolio__desc span{
-        font-size: 10px
     }
 }
 
 /* Media Query for Small Devices */
 
-@media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
+@media screen and (max-width: 600px) {
+    .portfolio__item {
+        padding: 1.5rem;
     }
-
-
 }
