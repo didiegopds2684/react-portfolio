@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-portfolio/static/css/main.5c0882d9.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.fc24541f.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.fc24541f.chunk.js.map",
+  "main.css": "/react-portfolio/static/css/main.dde1f39f.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.3f8081f8.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.3f8081f8.chunk.js.map",
   "static/js/1.5032a8aa.chunk.js": "/react-portfolio/static/js/1.5032a8aa.chunk.js",
   "static/js/1.5032a8aa.chunk.js.map": "/react-portfolio/static/js/1.5032a8aa.chunk.js.map",
   "runtime~main.js": "/react-portfolio/static/js/runtime~main.f8926043.js",
   "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f8926043.js.map",
   "static/media/Diego_Pedro_dos_Santos_Resume.pdf": "/react-portfolio/static/media/Diego_Pedro_dos_Santos_Resume.d5c1a561.pdf",
   "static/media/Diego_Pedro.webp": "/react-portfolio/static/media/Diego_Pedro.73e6f59e.webp",
-  "static/css/main.5c0882d9.chunk.css.map": "/react-portfolio/static/css/main.5c0882d9.chunk.css.map",
+  "static/css/main.dde1f39f.chunk.css.map": "/react-portfolio/static/css/main.dde1f39f.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.f73bb708c5a576b7922c38553b50776e.js": "/react-portfolio/precache-manifest.f73bb708c5a576b7922c38553b50776e.js",
+  "precache-manifest.8ef83f06683870004efd5470887645c8.js": "/react-portfolio/precache-manifest.8ef83f06683870004efd5470887645c8.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
