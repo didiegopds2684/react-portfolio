@@ -1,10 +1,10 @@
-.about__container{
+.about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
-.about__me{
+.about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -13,28 +13,28 @@
     place-items: center;
 }
 
-.about__me-image{
+.about__me-image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
 
-.about__me-image img{
-    width: 300px;
+.about__me-image img {
+    width: 500px;
 }
 
-.about__me-image:hover{
+.about__me-image:hover {
     transform: rotate(0);
 }
 
-.about__cards{
+.about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3.5rem;
 }
 
-.about__card{
+.about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -43,25 +43,25 @@
     transition: var(--transition);
 }
 
-.about__card:hover{
+.about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.about__icon{
+.about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.about__card h5{
+.about__card h5 {
     font-size: 1.1rem;
     color: var(--color-primary);
     font-family: var(--font-mono);
 }
 
-.about__card small{
+.about__card small {
     display: block;
     margin-top: 0.3rem;
     font-size: 0.75rem;
@@ -69,15 +69,15 @@
     color: var(--color-light)
 }
 
-.about__content p{
+.about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
 /* Media Query for Medium Devices */
 
-@media screen and (max-width: 1024px){
-    .about__container{
+@media screen and (max-width: 1024px) {
+    .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
@@ -87,29 +87,29 @@
         margin: 2rem auto 4rem;
     }
 
-    .about__content p{
+    .about__content p {
         margin: 1rem 0 1.5rem;
     }
 }
 
 /* Media Query for Small Devices */
 
-@media screen and (max-width: 600px){
-    .about__me{
+@media screen and (max-width: 600px) {
+    .about__me {
         width: 65%;
         margin: 0 auto 3rem;
     }
 
-    .about__cards{
+    .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .about__content{
+    .about__content {
         text-align: center;
     }
 
-    .about__content p{
+    .about__content p {
         margin: 1.5rem 0;
     }
 }
