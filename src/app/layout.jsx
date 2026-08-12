@@ -22,7 +22,7 @@ const ibmPlexMono = IBM_Plex_Mono({
     variable: '--font-mono',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://react-portfolio.vercel.app';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://diegopedro.dev';
 const title = 'Diego Pedro dos Santos — Full Stack Developer';
 const description = 'Diego Pedro dos Santos — Full Stack Developer especializado em integração de sistemas (ERP, LMS, CRM, pagamentos) e automação com IA.';
 
@@ -50,6 +50,12 @@ export const metadata = {
     robots: {
         index: true,
         follow: true,
+    },
+    // Replace with the code Google Search Console gives you after adding
+    // this property (search.google.com/search-console) — that's a manual,
+    // account-bound step this codebase can't do on your behalf.
+    verification: {
+        google: 'GOOGLE_SITE_VERIFICATION_PLACEHOLDER',
     },
 };
 

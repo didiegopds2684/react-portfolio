@@ -23,6 +23,11 @@
 .about__me-image img {
     width: 100%;
     max-width: 100%;
+    /* The width/height HTML attributes on the <img> (added for CLS) map to
+       an explicit height in the UA stylesheet, which otherwise wins over
+       aspect-ratio since aspect-ratio only fills in for height:auto. */
+    height: auto;
+    aspect-ratio: 1 / 1;
     display: block;
 }
 
@@ -57,7 +62,7 @@
     margin-bottom: 1rem;
 }
 
-.about__card h5 {
+.about__card h3 {
     font-size: 1.1rem;
     color: var(--color-primary);
     font-family: var(--font-mono);

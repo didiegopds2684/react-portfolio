@@ -19,7 +19,7 @@ const Experience = () => {
                 {
                     t.skills.categories.map((category) => (
                         <article className="skills__category" key={category.name}>
-                            <h4 className="text-mono skills__category-name">{category.name}</h4>
+                            <h3 className="text-mono skills__category-name">{category.name}</h3>
                             <div className="skills__tags">
                                 {category.items.map((item) => (
                                     <span className="skills__tag" key={item}>{item}</span>

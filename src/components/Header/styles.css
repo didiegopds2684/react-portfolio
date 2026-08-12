@@ -43,18 +43,21 @@ header {
     position: relative;
 }
 
-.header__text h5 {
+.header__greeting,
+.header__role {
     color: var(--color-secondary);
     font-family: var(--font-mono);
     font-size: 0.95rem;
     letter-spacing: 0.06em;
 }
 
+.header__greeting {
+    font-weight: 600;
+}
+
 .header__role {
     margin-top: 0.4rem;
-    font-family: var(--font-display);
     font-weight: 500;
-    font-size: 1.3rem;
 }
 
 .header__tagline {

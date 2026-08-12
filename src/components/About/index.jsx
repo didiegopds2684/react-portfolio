@@ -23,7 +23,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src="/Diego_Pedro.webp" alt="Diego Pedro dos Santos" />
+                        <img src="/Diego_Pedro.webp" alt="Diego Pedro dos Santos" width="900" height="900" />
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const About = () => {
                             return (
                                 <article className="about__card" key={card.title}>
                                     <Icon className="about__icon" />
-                                    <h5>{card.value}</h5>
+                                    <h3>{card.value}</h3>
                                     <small>{card.label}</small>
                                 </article>
                             );

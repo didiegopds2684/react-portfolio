@@ -39,22 +39,22 @@ const Contact = () => {
                 <div className="contact__options">
                     <article className="contact__option">
                         <MdOutlineEmail className="contact__icon" />
-                        <h4>{t.contact.email.label}</h4>
-                        <h5>{t.contact.email.value}</h5>
+                        <h3>{t.contact.email.label}</h3>
+                        <h4>{t.contact.email.value}</h4>
                         <a href={`mailto:${t.contact.email.value}`}>{t.contact.email.cta}</a>
                     </article>
                     <article className="contact__option">
                         <BsLinkedin className="contact__icon" />
-                        <h4>{t.contact.linkedin.label}</h4>
-                        <h5>{t.contact.linkedin.value}</h5>
+                        <h3>{t.contact.linkedin.label}</h3>
+                        <h4>{t.contact.linkedin.value}</h4>
                         <a href="https://www.linkedin.com/in/diego-pedro-santos/" rel="noreferrer">
                             {t.contact.linkedin.cta}
                         </a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className="contact__icon" />
-                        <h4>{t.contact.whatsapp.label}</h4>
-                        <h5>{t.contact.whatsapp.value}</h5>
+                        <h3>{t.contact.whatsapp.label}</h3>
+                        <h4>{t.contact.whatsapp.value}</h4>
                         <a href={whatsappHref} rel="noreferrer">{t.contact.whatsapp.cta}</a>
                     </article>
                 </div>

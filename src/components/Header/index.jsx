@@ -16,9 +16,9 @@ const Header = () => {
         <header id="header">
             <div className="container header__container">
                 <div className="header__text">
-                    <h5>{t.header.greeting}</h5>
+                    <p className="header__greeting">{t.header.greeting}</p>
                     <h1>{t.header.name}</h1>
-                    <h5 className="text-light header__role">{t.header.role}</h5>
+                    <p className="header__role">{t.header.role}</p>
                     <p className="header__tagline">{t.header.tagline}</p>
                     <CTA/>
                     <HeaderSocials/>

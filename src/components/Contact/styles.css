@@ -30,6 +30,17 @@
     margin-bottom: 0.5rem;
 }
 
+/* Sizes pinned explicitly because h3/h4 are used here for correct heading
+   order, but the label/value pair should keep reading like a small,
+   compact stat block rather than an actual h3/h4-sized heading. */
+.contact__option h3{
+    font-size: 1rem;
+}
+
+.contact__option h4{
+    font-size: 0.83rem;
+}
+
 .contact__option a{
     margin-top: 0.7rem;
     display: inline-block;

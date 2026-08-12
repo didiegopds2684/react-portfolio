@@ -44,7 +44,7 @@ const Nav = () => {
                 type="button"
                 className="nav__lang-toggle"
                 onClick={toggleLang}
-                aria-label={t.meta.langSwitchAria}
+                aria-label={`${t.meta.langLabel} — ${t.meta.langSwitchAria}`}
                 title={t.meta.langSwitchAria}
             >
                 {t.meta.langLabel}

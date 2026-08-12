@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://react-portfolio.vercel.app';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://diegopedro.dev';
 
     return [
         {
