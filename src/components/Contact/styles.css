@@ -52,6 +52,17 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    transition: var(--transition-fast);
+}
+
+input:focus, textarea:focus {
+    border-color: var(--color-primary);
+}
+
+.contact__option a:active {
+    transform: scale(0.95);
+    display: inline-block;
+    transition-duration: 60ms;
 }
 
 

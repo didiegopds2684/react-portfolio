@@ -3,7 +3,7 @@ import './styles.css';
 
 const NODES = [
     {id: 'totvs', label: 'TOTVS', sub: 'ERP', angle: -90, kind: 'system'},
-    {id: 'brightspace', label: 'D2L Brightspace', sub: 'LMS', angle: -30, kind: 'system'},
+    {id: 'brightspace', label: ['D2L', 'Brightspace'], sub: 'LMS', angle: -30, kind: 'system'},
     {id: 'blip', label: 'Take Blip', sub: 'WhatsApp', angle: 30, kind: 'system'},
     {id: 'pagseguro', label: 'PagSeguro', sub: 'Payments', angle: 90, kind: 'system'},
     {id: 'sydle', label: 'Sydle One', sub: 'BPM', angle: 150, kind: 'system'},
@@ -42,13 +42,20 @@ const IntegrationMap = ({caption}) => {
 
                 {NODES.map((node) => {
                     const {x, y} = polar(node.angle, RADIUS);
+                    const lines = Array.isArray(node.label) ? node.label : [node.label];
+                    const labelY = lines.length > 1 ? y - 10 : y - 3;
+                    const sublabelY = lines.length > 1 ? y + 16 : y + 12;
                     return (
                         <g key={node.id} className={`integration-map__node integration-map__node--${node.kind}`}>
                             <circle cx={x} cy={y} r={NODE_R}/>
-                            <text x={x} y={y - 3} textAnchor="middle" className="integration-map__label">
-                                {node.label}
+                            <text x={x} y={labelY} textAnchor="middle" className="integration-map__label">
+                                {lines.map((line, i) => (
+                                    <tspan key={line} x={x} dy={i === 0 ? 0 : 11}>
+                                        {line}
+                                    </tspan>
+                                ))}
                             </text>
-                            <text x={x} y={y + 12} textAnchor="middle" className="integration-map__sublabel">
+                            <text x={x} y={sublabelY} textAnchor="middle" className="integration-map__sublabel">
                                 {node.sub}
                             </text>
                         </g>

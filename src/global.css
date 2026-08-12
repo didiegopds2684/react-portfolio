@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
-
 /* Body */
 
 * {
@@ -18,6 +16,10 @@ html {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -48,11 +50,26 @@ body {
     --color-border: rgba(245, 244, 241, 0.09);
     --color-grid: rgba(245, 244, 241, 0.035);
 
-    --font-display: 'Space Grotesk', sans-serif;
-    --font-body: 'Inter', sans-serif;
-    --font-mono: 'IBM Plex Mono', monospace;
+    /* --font-display / --font-body / --font-mono come from next/font on
+       <html> in app/layout.jsx (self-hosted, no external request) rather
+       than being declared here. */
 
-    --transition: all 300ms ease;
+    /* Critically damped spring curve (no overshoot) — used for anything the
+       user can hover or press, so motion settles the way a physical object
+       would rather than on a mechanical linear/ease clock. */
+    --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+    --duration-fast: 150ms;
+    --duration-base: 300ms;
+
+    --transition: background-color var(--duration-base) var(--ease-spring),
+                  border-color var(--duration-base) var(--ease-spring),
+                  color var(--duration-base) var(--ease-spring),
+                  transform var(--duration-base) var(--ease-spring),
+                  box-shadow var(--duration-base) var(--ease-spring);
+    --transition-fast: transform var(--duration-fast) var(--ease-spring),
+                        background-color var(--duration-fast) var(--ease-spring),
+                        border-color var(--duration-fast) var(--ease-spring),
+                        color var(--duration-fast) var(--ease-spring);
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -73,8 +90,11 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2.75rem;
-    line-height: 1.15;
+    /* Fluid size with tracking/leading tuned inversely to it — bigger text
+       reads too loose at a flat letter-spacing and needs tighter leading. */
+    font-size: clamp(2.25rem, 1.6rem + 2.6vw, 3.25rem);
+    line-height: 1.1;
+    letter-spacing: -0.025em;
 }
 
 section {
@@ -109,7 +129,7 @@ section > h2 {
 
 a {
     color: var(--color-primary);
-    transition: var(--transition);
+    transition: var(--transition-fast);
 }
 
 a:hover {
@@ -126,13 +146,21 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-border);
     background: var(--color-bg-variant);
-    transition: var(--transition);
+    transition: var(--transition-fast);
     border-radius: 0.4rem;
 }
 
 .btn:hover {
     border-color: var(--color-primary);
     color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+/* Feedback lives on the press, not the release — instant and undone the
+   moment the pointer lifts, so the surface never feels laggy. */
+.btn:active {
+    transform: scale(0.97) translateY(0);
+    transition-duration: 60ms;
 }
 
 .btn-primary {
@@ -165,11 +193,40 @@ img {
     outline-offset: 3px;
 }
 
+/* Reveal-on-scroll: sections fade/rise in once, powered by useReveal().
+   Reduced motion keeps the fade but drops the vestibular slide-up. */
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 700ms var(--ease-spring), transform 700ms var(--ease-spring);
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+    }
+
+    .reveal {
+        transform: none;
+    }
+
+    .btn:hover {
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+    nav {
+        background: var(--color-bg-variant) !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
     }
 }
 

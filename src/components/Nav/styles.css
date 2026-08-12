@@ -12,7 +12,8 @@ nav {
     gap: 0.4rem;
     border: 1px solid var(--color-border);
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 nav a {
@@ -22,12 +23,19 @@ nav a {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
-    transition: var(--transition);
+    transition: var(--transition-fast);
 }
 
 nav a:hover {
     background: var(--color-bg-variant-2);
     color: var(--color-white);
+}
+
+/* Instant press feedback — the dock icon should feel grabbed the moment
+   the finger lands on it, not once the tap resolves. */
+nav a:active {
+    transform: scale(0.88);
+    transition-duration: 60ms;
 }
 
 nav a.active {
@@ -47,12 +55,17 @@ nav a.active {
     font-weight: 600;
     letter-spacing: 0.06em;
     cursor: pointer;
-    transition: var(--transition);
+    transition: var(--transition-fast);
 }
 
 .nav__lang-toggle:hover {
     border-color: var(--color-secondary);
     color: var(--color-white);
+}
+
+.nav__lang-toggle:active {
+    transform: scale(0.92);
+    transition-duration: 60ms;
 }
 
 @media screen and (max-width: 600px) {

@@ -5,6 +5,36 @@ header {
     overflow: hidden;
 }
 
+/* First paint should never wait on JS, so the hero materializes with a
+   plain CSS animation rather than the scroll-triggered .reveal used
+   further down the page. */
+@keyframes header-materialize {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header__text,
+.header__map {
+    animation: header-materialize 700ms var(--ease-spring) both;
+}
+
+.header__map {
+    animation-delay: 120ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header__text,
+    .header__map {
+        animation: none;
+    }
+}
+
 .header__container {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -66,6 +96,12 @@ header {
 .header__socials a:hover {
     border-color: var(--color-primary);
     color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.header__socials a:active {
+    transform: scale(0.9);
+    transition-duration: 60ms;
 }
 
 /* Map */
@@ -84,6 +120,21 @@ header {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--color-light);
+    animation: scroll-hint 2.4s var(--ease-spring) infinite;
+}
+
+/* Telegraphs the direction of the affordance — a slow, small nudge
+   downward, not a distracting loop (stays well under the ~0.2Hz ceiling
+   for full-viewport motion). */
+@keyframes scroll-hint {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll__down {
+        animation: none;
+    }
 }
 
 /* Media Query for Medium Devices */

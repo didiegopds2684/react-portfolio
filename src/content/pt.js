@@ -59,10 +59,11 @@ export const pt = {
                 company: 'Faculdade Unimed',
                 duration: '01/2025 – atualmente',
                 items: [
-                    'Integração de ecossistema educacional: interoperabilidade entre o ERP TOTVS e o ambiente virtual de aprendizagem D2L Brightspace, garantindo a integridade dos dados acadêmicos e administrativos.',
-                    'Portais e sistemas internos: desenvolvimento e manutenção de portais educacionais e sistemas internos, com Laravel no backend e Next.js no frontend.',
-                    'DevOps e infraestrutura: configuração e manutenção de ambientes de produção, com automação de deploy via CI/CD para releases contínuas e estáveis.',
-                    'Automação de processos (BPM): fluxos automatizados e integrações usando a plataforma Sydle One e soluções do ecossistema Microsoft.',
+                    'Garantiu integridade de dados acadêmicos e administrativos ao integrar o ERP TOTVS com o ambiente virtual de aprendizagem D2L Brightspace, eliminando inconsistências manuais entre os sistemas.',
+                    'Modernizou portais educacionais e sistemas internos utilizando Laravel no back-end e Next.js no front-end, otimizando processos corporativos e a experiência do usuário.',
+                    'Reduziu tempo de deploy e aumentou a estabilidade das entregas ao implementar pipelines de CI/CD para os ambientes de produção.',
+                    'Aumentou a eficiência operacional ao desenvolver fluxos automatizados (BPM) com Sydle One e soluções Microsoft.',
+                    'Stack: Laravel, Next.js, TypeScript, TOTVS, D2L Brightspace, Sydle One, Microsoft 365/Power Automate, CI/CD'
                 ],
             },
             {
@@ -71,10 +72,11 @@ export const pt = {
                 company: 'Verticis Web Studio',
                 duration: '10/2021 – 12/2024',
                 items: [
-                    'Engenharia de software fullstack: desenvolvimento e estruturação de sistemas em PHP (Laravel), com foco em arquitetura MVC e construção/consumo de APIs RESTful para integração com sistemas de terceiros.',
-                    'Frontend moderno e logística: sistema de gestão logística com integrações de transportadoras, usando Next.js, TypeScript e Redux para gerenciar estado complexo e alta performance de UI.',
-                    'Integrações financeiras críticas: implementação e homologação de gateway de pagamento (PagSeguro), superando validações rigorosas de segurança e requisitos de transações financeiras.',
-                    'Cloud e DevOps: pipelines de CI/CD (Vercel e Render) e gestão de infraestrutura AWS (EC2, Lightsail e S3). Padronização de ambientes de desenvolvimento com Docker para garantir paridade entre local e produção.',
+                    'Estruturou sistemas backend escaláveis com PHP/Laravel, aplicando arquitetura MVC e desenvolvendo APIs RESTful para integração com sistemas de terceiros.',
+                    'Entregou sistema de gestão logística com integração de transportadoras, usando Next.js, TypeScript e Redux para gerenciar estados complexos com alta performance.',
+                    'Implementou e homologou gateway de pagamento (PagSeguro), superando validações rigorosas de segurança e requisitos de transações financeiras.',
+                    'Padronizou ambientes de desenvolvimento com Docker para garantir paridade entre local e produção.',
+                    'Stack: PHP, Laravel, Next.js, TypeScript, Redux, Docker, AWS, CI/CD'
                 ],
             },
             {
@@ -83,7 +85,9 @@ export const pt = {
                 company: 'Agência Curinga',
                 duration: '07/2021 – 10/2021',
                 items: [
-                    'Desenvolvimento de sites e sistemas: construção de sites do zero com WordPress e HTML puro, incluindo builds totalmente customizados sem temas prontos.',
+                    'Desenvolveu sites institucionais e landing pages do zero utilizando PHP, JavaScript, HTML, CSS e Bootstrap, sem uso de frameworks pré-prontos.',
+                    'Criou sites totalmente personalizados em WordPress, incluindo temas próprios sem dependência de templates de terceiros.',
+                    'Stack: PHP, JavaScript, HTML, CSS, Bootstrap, WordPress'
                 ],
             },
             {
@@ -92,7 +96,10 @@ export const pt = {
                 company: 'Beltech',
                 duration: '08/2020 – 06/2021',
                 items: [
-                    'Automação de backup e manutenção de servidores: automação de backups de imagens EC2 e bancos de dados usando ferramentas da AWS. Contribuição na criação de ferramentas de automação e gestão de infraestrutura em nuvem.',
+                    'Reduziu risco de perda de dados ao automatizar backups de imagens EC2 e bancos de dados usando ferramentas nativas da AWS.',
+                    'Aumentou a eficiência da operação de infraestrutura ao criar ferramentas de automação e gerenciamento de servidores em nuvem.',
+                    'Gerenciou servidores, aplicações, bancos de dados e roteamento de rede no Google Cloud Platform.',
+                    'Stack: AWS (EC2), GCP, Linux, Automação de Infraestrutura, TypeScript'
                 ],
             },
         ],
@@ -143,7 +150,7 @@ export const pt = {
             {
                 id: 2,
                 tag: 'Projeto corporativo — Faculdade Unimed',
-                title: '"Samba IA" — Automação de vendas com IA',
+                title: 'Automação de vendas com IA',
                 description: 'Atendimento automatizado combinando Sydle One e Take Blip (WhatsApp): qualificação de lead, conversa automática, geração de link de pagamento e handoff para atendente humano após confirmação.',
                 stack: 'Sydle One (BPM) · Take Blip (WhatsApp API) · Claude (LLM) · PagSeguro',
                 result: 'Fluxo completo de qualificação → conversa → pagamento → handoff humano.',
@@ -170,6 +177,28 @@ export const pt = {
                 stack: 'Scripts próprios · API Claude · Engenharia reversa de binários',
                 result: 'Aplicação prática de IA fora do contexto corporativo.',
                 github: '',
+                github2: '',
+                demo: '',
+            },
+            {
+                id: 5,
+                tag: 'Projeto pessoal',
+                title: 'CRM Flow — CRM multi-tenant via API',
+                description: 'Plataforma SaaS em microsserviços que permite empresas criarem CRMs personalizados via API — cada empresa define suas próprias entidades e campos, sem alterar código. Isolamento total de dados via schema-per-tenant no PostgreSQL e motor de entidades dinâmico baseado em JSONB.',
+                stack: 'Java 21 + Spring Boot 3.3 · PostgreSQL 16 (JSONB, schema-per-tenant) · Redis · RabbitMQ · JWT RS256 · Resilience4j · Docker Compose',
+                result: 'Auth Service e Tenant Service completos e funcionais; Entity Engine, Permission Service, Analytics e API Gateway em desenvolvimento.',
+                github: 'https://github.com/didiegopds2684/crm_flow',
+                github2: '',
+                demo: '',
+            },
+            {
+                id: 6,
+                tag: 'Projeto pessoal',
+                title: 'Riftbound Tracker — Placar e estatísticas para TCG',
+                description: 'App mobile (Android, iOS e Web) para jogadores de Riftbound TCG registrarem suas partidas, acompanharem estatísticas pessoais por Champion e usarem um placar digital em tempo real na mesa. Projeto não-oficial, sem afiliação com a Riot Games — não simula nem automatiza regras do jogo.',
+                stack: 'React Native + Expo · React Navigation · Supabase (Postgres + Auth + RLS) · Riftcodex API · Vercel',
+                result: 'Placar, histórico de partidas e estatísticas por Champion rodando em iOS, Android e Web.',
+                github: 'https://github.com/didiegopds2684/riftbound-tracker',
                 github2: '',
                 demo: '',
             },
@@ -208,12 +237,12 @@ export const pt = {
     footer: {
         logo: 'Diego Pedro',
         links: [
-            {label: 'Início', href: '#header'},
-            {label: 'Sobre mim', href: '#about'},
-            {label: 'Experiência', href: '#professional'},
-            {label: 'Conhecimento', href: '#skills'},
-            {label: 'Projetos', href: '#portfolio'},
-            {label: 'Contato', href: '#contact'},
+            { label: 'Início', href: '#header' },
+            { label: 'Sobre mim', href: '#about' },
+            { label: 'Experiência', href: '#professional' },
+            { label: 'Conhecimento', href: '#skills' },
+            { label: 'Projetos', href: '#portfolio' },
+            { label: 'Contato', href: '#contact' },
         ],
         copyright: '© Diego Pedro. Todos os direitos reservados.',
     },

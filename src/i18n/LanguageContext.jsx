@@ -1,3 +1,5 @@
+'use client';
+
 import React, {createContext, useContext, useEffect, useState} from 'react';
 import {pt} from '../content/pt';
 import {en} from '../content/en';
@@ -9,10 +11,18 @@ const LanguageContext = createContext(null);
 const STORAGE_KEY = 'diego-portfolio-lang';
 
 export const LanguageProvider = ({children}) => {
-    const [lang, setLang] = useState(() => {
+    // Server render (and first client paint, to match it) always starts in
+    // 'pt' — window/localStorage don't exist on the server, so reading them
+    // here would crash Next.js SSR. The stored preference is applied right
+    // after mount instead, in the effect below.
+    const [lang, setLang] = useState('pt');
+
+    useEffect(() => {
         const stored = window.localStorage.getItem(STORAGE_KEY);
-        return stored === 'en' || stored === 'pt' ? stored : 'pt';
-    });
+        if (stored === 'en' || stored === 'pt') {
+            setLang(stored);
+        }
+    }, []);
 
     useEffect(() => {
         window.localStorage.setItem(STORAGE_KEY, lang);

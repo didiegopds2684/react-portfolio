@@ -46,6 +46,18 @@ footer a{
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
+    transform: translateY(-2px);
+}
+
+.footer__socials a:active{
+    transform: scale(0.9);
+    transition-duration: 60ms;
+}
+
+.footer__logo:active {
+    transform: scale(0.97);
+    display: inline-block;
+    transition-duration: 60ms;
 }
 
 .footer__copyright{

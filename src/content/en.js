@@ -59,10 +59,11 @@ export const en = {
                 company: 'Faculdade Unimed',
                 duration: '01/2025 – Present',
                 items: [
-                    'Educational Ecosystem Integration: interoperability between the management system (TOTVS ERP) and the virtual learning environment (D2L Brightspace), ensuring the integrity of academic and administrative data.',
-                    'Portal & Tooling Development: built and maintained educational portals and internal systems to streamline corporate processes, using Laravel for robust back-ends and Next.js for modern, reactive user interfaces.',
-                    'DevOps & Infrastructure: configuring and maintaining production environments, implementing CI/CD deployment automation to ensure continuous, stable releases.',
-                    'Process Automation (BPM): developed automated workflows and integrations using the Sydle One platform and Microsoft solutions to drive operational efficiency.',
+                    'Ensured academic and administrative data integrity by integrating TOTVS ERP with the D2L Brightspace LMS, eliminating manual inconsistencies between systems.',
+                    'Modernized educational portals and internal systems using Laravel on the back-end and Next.js on the front-end, streamlining corporate processes and user experience.',
+                    'Reduced deployment time and improved release stability by implementing CI/CD pipelines for production environments.',
+                    'Increased operational efficiency by building automated BPM workflows with Sydle One and Microsoft solutions (Power Automate).',
+                    'Stack: Laravel, Next.js, TypeScript, TOTVS, D2L Brightspace, Sydle One, Microsoft 365/Power Automate, CI/CD'
                 ],
             },
             {
@@ -71,10 +72,12 @@ export const en = {
                 company: 'Verticis Web Studio',
                 duration: '10/2021 – 12/2024',
                 items: [
-                    'Fullstack Software Engineering: developed and structured systems using PHP (Laravel), focusing on MVC architecture and building/consuming RESTful APIs for third-party system integration.',
-                    'Modern Frontend & Logistics: built a logistics management system with carrier integrations, using Next.js, TypeScript, and Redux to manage complex state and ensure high UI performance.',
-                    'Critical Financial Integrations: implemented and obtained approval (homologação) for a payment gateway integration (PagSeguro), overcoming rigorous security validation and financial transaction requirements.',
-                    'Cloud & DevOps: implemented CI/CD pipelines (Vercel and Render) and managed AWS infrastructure (EC2, Lightsail, and S3). Standardized development environments with Docker to ensure parity between local and production.',
+                    'Architected scalable backend systems with PHP/Laravel, applying MVC architecture and building RESTful APIs for third-party integrations.',
+                    'Delivered a logistics management system with carrier integrations, using Next.js, TypeScript, and Redux to manage complex state with high performance.',
+                    'Implemented and certified a payment gateway (PagSeguro), passing strict security and financial transaction validation requirements.',
+                    'Standardized development environments with Docker, eliminating local-to-production discrepancies, and set up CI/CD pipelines via Vercel and Render.',
+                    'Managed AWS infrastructure (EC2, Lightsail, S3) supporting production applications.',
+                    'Stack: PHP, Laravel, Next.js, TypeScript, Redux, REST API, PagSeguro, Docker, AWS (EC2/S3/Lightsail), Vercel, Render'
                 ],
             },
             {
@@ -83,7 +86,9 @@ export const en = {
                 company: 'Agência Curinga',
                 duration: '07/2021 – 10/2021',
                 items: [
-                    'Website & System Development: built websites from scratch using WordPress and vanilla HTML, including fully custom builds without pre-made WordPress themes.',
+                    'Built institutional websites and landing pages from scratch using PHP, JavaScript, HTML, CSS, and Bootstrap, without relying on pre-built frameworks.',
+                    'Created fully custom WordPress sites, including original themes with no dependency on third-party templates.',
+                    'Stack: PHP, JavaScript, HTML, CSS, Bootstrap, WordPress'
                 ],
             },
             {
@@ -92,7 +97,10 @@ export const en = {
                 company: 'Beltech',
                 duration: '08/2020 – 06/2021',
                 items: [
-                    'Backup Automation & Server Maintenance: automated backups of EC2 images and databases using AWS tooling directly. Contributed to building automation tools and managing cloud computing infrastructure.',
+                    'Reduced data loss risk by automating EC2 image and database backups using native AWS tools.',
+                    'Improved infrastructure operations efficiency by building automation and server management tools for cloud environments.',
+                    'Managed servers, applications, databases, and network routing across Google Cloud Platform.',
+                    'Stack: AWS (EC2), GCP, Linux, Infrastructure Automation, TypeScript'
                 ],
             },
         ],
@@ -173,6 +181,28 @@ export const en = {
                 github2: '',
                 demo: '',
             },
+            {
+                id: 5,
+                tag: 'Personal project',
+                title: 'CRM Flow — Multi-tenant CRM via API',
+                description: 'Microservices SaaS platform that lets companies build custom CRMs via API — each company defines its own entities and fields with zero code changes. Full data isolation through PostgreSQL schema-per-tenant and a dynamic, JSONB-backed entity engine.',
+                stack: 'Java 21 + Spring Boot 3.3 · PostgreSQL 16 (JSONB, schema-per-tenant) · Redis · RabbitMQ · JWT RS256 · Resilience4j · Docker Compose',
+                result: 'Auth Service and Tenant Service complete and functional; Entity Engine, Permission Service, Analytics, and API Gateway in progress.',
+                github: 'https://github.com/didiegopds2684/crm_flow',
+                github2: '',
+                demo: '',
+            },
+            {
+                id: 6,
+                tag: 'Personal project',
+                title: 'Riftbound Tracker — Scorekeeper & stats for a TCG',
+                description: 'Mobile app (Android, iOS, and Web) for Riftbound TCG players to log their own matches, track personal per-Champion stats, and use a live digital scoreboard at the table. Unofficial, not affiliated with Riot Games — it doesn\'t simulate or automate game rules.',
+                stack: 'React Native + Expo · React Navigation · Supabase (Postgres + Auth + RLS) · Riftcodex API · Vercel',
+                result: 'Scoreboard, match history, and per-Champion stats running on iOS, Android, and Web.',
+                github: 'https://github.com/didiegopds2684/riftbound-tracker',
+                github2: '',
+                demo: '',
+            },
         ],
     },
 
@@ -208,12 +238,12 @@ export const en = {
     footer: {
         logo: 'Diego Pedro',
         links: [
-            {label: 'Home', href: '#header'},
-            {label: 'About', href: '#about'},
-            {label: 'Experience', href: '#professional'},
-            {label: 'Skills', href: '#skills'},
-            {label: 'Projects', href: '#portfolio'},
-            {label: 'Contact', href: '#contact'},
+            { label: 'Home', href: '#header' },
+            { label: 'About', href: '#about' },
+            { label: 'Experience', href: '#professional' },
+            { label: 'Skills', href: '#skills' },
+            { label: 'Projects', href: '#portfolio' },
+            { label: 'Contact', href: '#contact' },
         ],
         copyright: '© Diego Pedro. All rights reserved.',
     },

@@ -1,14 +1,18 @@
+'use client';
+
 import React from "react";
 
 import './styles.css'
-import {MdArrowForwardIos} from "react-icons/all";
+import {MdArrowForwardIos} from "react-icons/md";
 import {useLanguage} from "../../i18n/LanguageContext";
+import {useReveal} from "../../hooks/useReveal";
 
 const Professional = () => {
     const {t} = useLanguage();
+    const [ref, isVisible] = useReveal();
 
     return (
-        <section id="professional">
+        <section id="professional" ref={ref} className={`reveal ${isVisible ? 'is-visible' : ''}`}>
             <span className="section__eyebrow">{t.professional.eyebrow}</span>
             <h2>{t.professional.title}</h2>
             <div className="container professional__container">

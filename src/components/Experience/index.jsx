@@ -1,13 +1,17 @@
+'use client';
+
 import React from 'react'
 
 import './styles.css'
 import {useLanguage} from "../../i18n/LanguageContext";
+import {useReveal} from "../../hooks/useReveal";
 
 const Experience = () => {
     const {t} = useLanguage();
+    const [ref, isVisible] = useReveal();
 
     return (
-        <section id="skills">
+        <section id="skills" ref={ref} className={`reveal ${isVisible ? 'is-visible' : ''}`}>
             <span className="section__eyebrow">{t.skills.eyebrow}</span>
             <h2>{t.skills.title}</h2>
 
